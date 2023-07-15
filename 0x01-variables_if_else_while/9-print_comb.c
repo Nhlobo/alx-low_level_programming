@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - prints all possible combination of single number.
 (*
