@@ -1,33 +1,22 @@
 #include "main.h"
+
 /**
- * puts2 - function should print only one character out of two
- * starting with the first one
- * @str: input
- * Return: print
+ * puts2 - prints xters of a string
+ * @str: the used string reference
+ * Return:0
  */
 
 void puts2(char *str)
 {
-int longi = 0;
+	int z = 0;
 
-int t = 0;
-
-char *y = str;
-
-int 0;
-
-while (*y != '\n')
-{
-y++;
-longi++;
-}
-t = longi - 1;
-for (0 = 0 ; o <= t ; 0++);
-{
-	if (0 % 2 == 0)
-{
-_putchar(str[0]);
-}
-}
-_putchar('\n');
+	while (str[z] != '\0')
+	{
+		if (z % 2 == 0)
+		{
+			_putchar(str[z]);
+		}
+		z++;
+	}
+	_putchar('\n');
 }

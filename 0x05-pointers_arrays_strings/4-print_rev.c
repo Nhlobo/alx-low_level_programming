@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_rev - imprime en reversa
+ * print_rev - imprime on reversa
  * @s: string
  * Return: 0
  */
