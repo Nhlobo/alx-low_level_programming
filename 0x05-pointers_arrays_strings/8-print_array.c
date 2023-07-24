@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -6,6 +5,8 @@
  * followed by a new line.
  * @a: This is the input array
  * @n: This is the lenght of the array
+ *
+ *
  */
 
 void print_array(int *a, int n)
@@ -20,5 +21,5 @@ void print_array(int *a, int n)
 			printf(", ");
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
