@@ -1,22 +1,17 @@
 #include "main.h"
-#include <math.h>
 
-int actual_sqrt_recursion(int n, int i);
-
-int sqrt_recursion(int n)
+/**
+ * _pow_recursion - returns the value of x raised to the power of y.
+ * @x: base.
+ * @y: exponent.
+ * Return: value of the exponentiation.
+ */
+int _pow_recursion(int x, int y)
 {
-    if (n < 0)
-        return (-1);
-    return actual_sqrt_recursion(n, 0);
-}
-
-int actual_sqrt_recursion(int n, int i)
-{
-    if ((i * i) > n)
-    {
-        if (((i - 1) * (i - 1)) == n)
-            return (i - 1);
-        return (-1);
-    }
-    return actual_sqrt_recursion(n, i + 1);
+	if (y < 0)
+		return (-1);
+	else if (y == 0)
+		return (1);
+	else
+		return (x * _pow_recursion(x, y - 1));
 }
