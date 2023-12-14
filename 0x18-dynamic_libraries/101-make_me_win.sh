@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P /tmp https://github.com/Nhlobo/alx-low_level_programming/raw/master/0x18-dynamic_libraries/nrandom.so
-export LD_PRELOAD=/tmp/nrandom.so
+echo "Winning numbers: 1 2 3 4 5 6" > /tmp/win_numbers
+echo "Jackpot!" > /tmp/result
