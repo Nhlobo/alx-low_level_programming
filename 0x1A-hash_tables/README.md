@@ -8,8 +8,6 @@ This repository contains a set of C programs implementing basic operations for a
 - [Compilation](#compilation)
 - [Usage](#usage)
 - [Tests](#tests)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Files
 
